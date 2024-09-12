@@ -1,3 +1,8 @@
+@font-face {
+    font-family: DATEON ;
+    src: url(...FONT\FONTE-DATEON.ttf);
+}
+
 *{
-    
+    font-family: DATEON;
 }
