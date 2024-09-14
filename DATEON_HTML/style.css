@@ -62,8 +62,8 @@ form{
 /* Header em flexbox */
 header {
     padding: 10px 20px;
-    border-bottom: 1px solid white;
-    border-width: 2px;
+   /* border-bottom: 1px solid white;
+    border-width: 2px; */
     display: flex;
     align-items: center;
     justify-content: space-between; /* Logo + navegação à esquerda, botão à direita */
@@ -73,7 +73,7 @@ header {
 .logo-e-produtos {
     display: flex;
     align-items: center; /* Alinha logo e links verticalmente */
-    gap: 28px;
+    gap: 30px;
 }
 
 nav ul {
@@ -102,26 +102,19 @@ nav ul {
     color: white;
 }
 
-
-.fundo{
-    background-size: 100px 100px;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
- }
-
 main {
     display: flex;
-    height: 100vh;
+    height: 90vb;
     background: linear-gradient(to bottom, rgb(34, 34, 34), #b3558c , #b31972);
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: -35px;
 }
 
 .texto-com-botao{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
 }
 
 .registrar{
@@ -138,6 +131,36 @@ h1{
     font-weight: bold;
     font-size: 40px;
 }
+
+footer,
+.rodape{
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.redes-sociais{
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+    gap: 1px;
+    padding: 10px 1px;
+    margin-top: -10PX;
+    margin-right: 10px;
+    margin-block-end: -4px;
+}
+
+.icones{
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+}
+
     
 
 /* Responsividade */
