@@ -34,6 +34,7 @@ input::placeholder{
 
 body{
     background-color: rgb(34, 34, 34);
+    margin: 0;
 }
 
 button{
@@ -59,31 +60,98 @@ form{
     align-items: center;
 }
 
-.logo{
-    height: 100px;
-    padding: 5px 5px;
-    margin: 16px 16px 0px 20px;
+/* Estilo da logo */
+.logo {
+    height: 60px;
 }
 
-hr{
-    border-color: #888;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-a{
-    display: flex;
-}
-
-header{
+/* Header em flexbox */
+header {
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+    border-width: 2px;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; /* Logo + navegação à esquerda, botão à direita */
 }
 
-.area-produtos{
-    flex-direction: row;
+/* Alinhamento logo e navegação */
+.logo-e-produtos {
+    display: flex;
+    align-items: center; /* Alinha logo e links verticalmente */
+    gap: 28px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+    list-style: none; /* Remove bullets da lista */
+}
+
+/* Estilo dos links */
+.entrar, 
+.area-produtos {
+    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+}
+
+/* Estilo do botão Entrar */
+.entrar{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 7px 35px;
+    background-color: #b31972;
+    border-radius: 50px;
+    color: white;
+}
+
+
+.fundo{
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+ }
+
+main {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(34, 34, 34), #b3558c , #b31972);
+}
+
+.texto-com-botao{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.registrar{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 7px 50px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+    
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        font-size: 18px;
+        gap: 10px;
+    }
+
+    .entrar {
+        font-size: 18px;
+        padding: 5px 20px;
+    }
+
+    .logo {
+        height: 50px;
+    }
 }
