@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata:wght@400&display=swap');
+
+
+.alata-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+*{
+    font-family: 'Alata';
+}
+
+body{
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 60px;
+}
+
+main{
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+.form-box{
+    display: flex;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto{
+    background-color: gray;
+    padding: 50px 20px;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px 90px;
+    background-color: #b31972;
+    border-radius: 50px;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+}
+
+.identificacao{
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-block-end: 15px;
+    flex-direction: column;
+    margin: 0px;
+    margin-block-end: 0px;
+}
+
+h2{
+    font-size:30px;
+    margin: 0px;
+    padding: 5px;
+}
+
+/* form{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* input{
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 4px;
+    font-size: 12pt;
+} */
+
+
+/* h3{
+    margin: 0px;
+    margin-block-end: 0px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.registrar,
+h5{
+    display: flex;
+    flex-direction: column;
+    margin: 9px;
+    margin-block-end: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: #b31972;
+}
+
+
+.simbolos-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.simbolos{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.google,
+.facebook{
+    width: 45px;
+}
+
+h3{
+    padding: 0;
+    margin-block-end: 10px;
+} */ 
