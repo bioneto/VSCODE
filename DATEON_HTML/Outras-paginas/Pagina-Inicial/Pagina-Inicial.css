@@ -9,6 +9,7 @@
 
 *{
     font-family: 'Alata';
+    text-decoration: none;
 }
 
 body{
@@ -20,6 +21,7 @@ body{
 }
 
 header{
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,4 +64,30 @@ main{
     margin-top: 50px;
     padding: 200px 20px;
     background-color: white ;
+}
+
+a{
+    color: white;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Alinhamento logo e opções */
+.logo-e-opcoes {
+    display: flex;
+    align-items: center; /* Alinha logo e links verticalmente */
+    gap: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    list-style: none; /* Remove bullets da lista */
 }
