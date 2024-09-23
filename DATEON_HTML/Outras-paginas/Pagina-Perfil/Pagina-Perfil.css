@@ -20,10 +20,31 @@ body{
     height: 60px;
 }
 
+/* Alinhamento logo e opções */
+.logo-e-opcoes {
+    display: flex;
+    align-items: center; /* Alinha logo e links verticalmente */
+    gap: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    list-style: none; /* Remove bullets da lista */
+}
+
+.opcoes a{
+    text-decoration: none;
+}
+
 header{
     padding: 10px 20px;
     display: flex;
     align-items: center;
+
 }
 
 
@@ -57,7 +78,7 @@ object-fit: cover;
 .descricaousuario p{
     margin-top: -10px;
     width:  500px;
-    height: 100px;
+    height: auto;
     overflow: hidden;
     font-size: 9pt;
 }
