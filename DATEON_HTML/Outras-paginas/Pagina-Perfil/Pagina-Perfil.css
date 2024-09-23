@@ -84,7 +84,6 @@ object-fit: cover;
 }
 
 .gostos ul{
-    margin-top: -50px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -105,7 +104,6 @@ object-fit: cover;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-
     overflow: hidden;
     justify-content: flex-start;
 }
